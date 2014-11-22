@@ -1,8 +1,8 @@
-= Experimental Data Carprentry: managing experimental metadata in tables = 
+# Experimental Data Carpentry: managing experimental metadata in tables #
 
-Authors: 
+Authors: <br>
 Contributors:
 
-== Experimental Data ==
+## Experimental Data ##
 
-== Experimental Metadata ==
+## Experimental Metadata ##
