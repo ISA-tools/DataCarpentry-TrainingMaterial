@@ -17,11 +17,11 @@ Imagine you found a folder entitled ```LS1_C2_LD_TP2_P1``` containing a file ```
 
         Code  | Meaning
 ------------- | -------------
-         LS1  | Content Cell
-          C2  | Content Cell
-          LD  | Content Cell
-         TP2  | Content Cell
-          P1  | Content Cell
+         LS1  | liver sample 1
+          C2  | compound 2
+          LD  | low dose
+         TP2  | time point 2
+          P1  | protocol 1
           
 
 
