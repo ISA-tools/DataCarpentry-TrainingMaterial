@@ -1,4 +1,5 @@
-# Experimental Data Carpentry: managing experimental metadata in tables #
+# Experimental Data Carpentry #
+## Managing experimental metadata in tables ##
 
 Authors: <br>
 Contributors:
@@ -6,3 +7,9 @@ Contributors:
 ## Experimental Data ##
 
 ## Experimental Metadata ##
+
+The data on its own 
+
+
+
+### References ###
