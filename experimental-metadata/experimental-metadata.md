@@ -8,9 +8,12 @@ Contributors:
 
 ## Experimental Metadata ##
 
-The data on its own is not enough to understand what the data are about and how they were generated. 
+The data on its own is not enough to understand what the data are about and how they were generated. It is important to record information about the data generation process, not only for sharing the data with other people, but also for being able to understand one's own data in the future.
 
-Filenames
+Let's see some examples on how NOT to report experimental information.
+
+Imagine you found a folder entitled ```LS1_C2_LD_TP2_P1``` containing a file ```file1-fastq.gz```. So, what data does the file contains?
+
 
 To make the data understandable, re-usable and, in principle, reproducible, it is crucial to provide metadata --- or data about the data --- including the experimental steps followed to produce the data, the characteristics of the samples, the protocols applied, the transformations applied and so on.
 
