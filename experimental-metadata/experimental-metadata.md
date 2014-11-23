@@ -8,7 +8,7 @@ Contributors:
 
 ## Experimental Metadata ##
 
-The data on its own is not enough to understand what the data are about and how they were generated. It is important to record information about the data generation process, not only for sharing the data with other people, but also for being able to understand one's own data in the future.
+The data on their own is not enough to understand what the data are about and how they were generated. It is important to record information about the data generation process, not only for sharing the data with other people, but also for being able to understand one's own data in the future.
 
 Let's see some examples on how NOT to report experimental information.
 
@@ -17,6 +17,10 @@ Imagine you found a folder entitled ```LS1_C2_LD_TP2_P1``` containing a file ```
 As the file extension is ```gz```, we can figure out that is a compressed file following the [GZip file format](http://en.wikipedia.org/wiki/Gzip#File_format). As it is a ```fastq``` file, we can assume it contains sequence information following the [FASTQ format](http://en.wikipedia.org/wiki/FASTQ_format).
 
 But what is the sample this sequence data comes from?
+
+We can guess that the folder name follows some coding system, but which one? It would be necessary to have that information spelled out.
+
+The table below shows an example of what the data creator could have meant:
 
         Code  | Meaning
 ------------- | -------------
