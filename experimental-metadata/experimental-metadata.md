@@ -76,10 +76,9 @@ For example, scientistis performing microarray-based transcriptomics experiments
 5. the information about the array (e.g. gene identifiers and genomic coordinates)
 6. the information about the protocols applied (e.g. about the normalisation method)
     
-
+[MIBBI Foundry](http://biosharing.org/standards/?selected_facets=isMIBBI:true)
 
 ### Exchange formats ###
-
 
 
 
