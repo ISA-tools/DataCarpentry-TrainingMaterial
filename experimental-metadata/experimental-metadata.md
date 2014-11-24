@@ -34,6 +34,12 @@ To make the data understandable, re-usable and, in principle, reproducible, it i
 
 On the other hand, creating the metadata can be time-consuming. So, it is important to provide sufficient information to understand en enable re-use of the dataset, but at the same time striking a balance between the depth and breadth of the metadata provided.
 
+Several communities in the different domains have worked on developing a variety of metadata standards focusing on specifying the content to be reported, the formats to be used and common terminologies for each of domains.
+
+In the next section, we will explore the different types of community-based metadata standards, providing examples for life science domains.
+
+## Metadata Standards ##
+
 
 
 ### References ###
