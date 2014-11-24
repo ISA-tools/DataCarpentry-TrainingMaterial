@@ -56,7 +56,7 @@ Community-developed metadata standards can be classified into three categories:
 
 Let's now explore each of these categories, highlighting some examples of each.
 
-### Minimum Information Chekcklists ###
+### Minimum Information Checklists ###
 
 The different communities using specific techniques or performing particular types of experiments have realised along the years the importance of a common and regularised set of metadata describing both the biological and methodological contexts of the experiment. The main aims for these guidelines are (see *Taylor et al, 2008*):
 
@@ -67,7 +67,16 @@ The different communities using specific techniques or performing particular typ
 5. to faciliate, in principle, the reproducibility of the experiment
 6. to strengthen the value of experimentl with supporting information (and thus, the competitiveness of the data generators)
 
-For example, scientistis performing microarray-based transcriptomics experiments, identified the [Minimum Information about a Microarray Experiment (MIAME)](http://biosharing.org/bsg-000177). The MIAME guideline  
+For example, scientistis performing microarray-based transcriptomics experiments, identified the [Minimum Information about a Microarray Experiment (MIAME)](http://biosharing.org/bsg-000177) (See *Brazma et al, 2001*). The MIAME guideline identifies [the six more crucial elements](http://www.fged.org/projects/miame/#sthash.dGA1h2Hn.dpuf) for reporting a microarray-based experiment as:
+
+1. the raw data files for each hybridisation
+2. the normalised data for the hybridisations
+3. the information about the samples, including the experimental factors (or independent variables) and their values
+4. the information about the experimental design
+5. the information about the array (e.g. gene identifiers and genomic coordinates)
+6. the information about the protocols applied (e.g. about the normalisation method)
+    
+
 
 ### Exchange formats ###
 
