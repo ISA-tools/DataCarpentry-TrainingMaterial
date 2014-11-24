@@ -38,6 +38,8 @@ The table below shows an example of what the data creator could have meant:
 
 To make the data understandable, re-usable and, in principle, reproducible, it is crucial to provide metadata --- or data about the data --- including the experimental steps followed to produce the data, the characteristics of the samples, the protocols applied, the transformations applied and so on.
 
+The experimental metadata provides background information including the expirimental context, the methods, the information about the generated data and the experimental conclusions.
+
 On the other hand, creating the metadata can be time-consuming. So, it is important to provide sufficient information to understand en enable re-use of the dataset, but at the same time striking a balance between sufficiency and practicability, by exploring the depth and breadth of the metadata provided.
 
 Several communities in the different domains have worked on developing a variety of metadata standards focusing on specifying the content to be reported, the formats to be used and common terminologies for each of domains. By agreeing on what to report
@@ -54,15 +56,32 @@ Community-developed metadata standards can be classified into three categories:
 
 Let's now explore each of these categories, highlighting some examples of each.
 
+### Minimum Information Chekcklists ###
+
+The different communities using specific techniques or performing particular types of experiments have realised along the years the importance of a common and regularised set of metadata describing both the biological and methodological contexts of the experiment. The main aims for these guidelines are (see *Taylor et al, 2008*):
+
+1. to foster transparency when reporting experimental results
+2. to improve data accessibility 
+3. to support effective data quality assessment
+4. to enable the unambiguous interpretation of the experimental results 
+5. to faciliate, in principle, the reproducibility of the experiment
+6. to strengthen the value of experimentl with supporting information (and thus, the competitiveness of the data generators)
+
+For example, scientistis performing microarray-based transcriptomics experiments, identified the [Minimum Information about a Microarray Experiment (MIAME)](http://biosharing.org/bsg-000177). The MIAME guideline  
+
+### Exchange formats ###
 
 
 
+
+## Semantic Annotation ##
+
+
+### ISA-Tab ###
 
 Compliance with the standards is challenging. We will next present an example infrascture whose design aim was to:
 
 * achieve a common, structured representation of diverse bioscience experiments and transcending specific domains
 * facilitating compliance with the specific community guidelines and standards
-
-### Semantic Annotation ###
 
 
