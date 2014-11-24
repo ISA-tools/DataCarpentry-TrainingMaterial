@@ -48,9 +48,15 @@ In the next section, we will explore the different types of community-based meta
 
 Community-developed metadata standards can be classified into three categories:
 
-* Minimum Information Checklists: identify the same core, essential information to report about a particular type of experiment 
-* Exchange Formats: allow information to flow from one system to another (enabling syntactic interoperability)
-* Terminologies: emphasise on using the same term for referring to the same 'thing' in multiple systems (enabling semantic interoperability)
+* **Minimum Information Checklists**: these are guidelines to identify the core or essential information to report about a particular type of experiment 
+* **Exchange Formats**: formats that allow information to flow from one system to another (enabling syntactic interoperability)
+* **Terminologies**: emphasise on using the same term for referring to the same 'thing' in multiple systems (enabling semantic interoperability); these terminologies could include a wide-range of vocabularies, from taxonomies to more formal ontologies.
+
+Let's now explore each of these categories, highlighting some examples of each.
+
+
+
+
 
 Compliance with the standards is challenging. We will next present an example infrascture whose design aim was to:
 
