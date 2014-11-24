@@ -4,13 +4,13 @@
 Authors: <br>
 Contributors:
 
-Sculpting data, i.e. generating data and annotating data, involves a wide set of skills ranging from knowledge about the data in the specific domain being considered plus general expertise on data management, enabling the storage, interpretation, preservation and re-use of data.
+Sculpting data, i.e. generating data and annotating data, involves a wide set of skills ranging from knowledge about the data in the specific domain being considered, plus general expertise on data management, enabling the storage, interpretation, preservation and re-use of data.
 
-This tutorial will explore some of the concepts, skills and tools useful for managing the data and metadata --- or data about the data --- maintained in tables, or spreadsheet programs.
+This tutorial will explore some of the concepts, required skills and available software tools useful for managing the data and metadata --- or data about the data --- maintained in tables, i.e. in spreadsheet programs. 
 
 ## Experimental Data ##
 
-
+The last decade has seen a massive increase on the biological data being generated. Considering DNA sequencing technologies as an example, there has been an impressive improvement in instruments capacity during the last ten years, when moving from Sanger-based capillary sequencing methods to next generation, massively parallel sequencing technologies (see Mardis 2011). In addition to the technological enhancements, the sequencing costs have been dropping (see http://www.genome.gov/sequencingcosts/). 
 
 ## Experimental Metadata ##
 
