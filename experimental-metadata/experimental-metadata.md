@@ -1,5 +1,5 @@
 # Experimental Data Carpentry #
-## Managing experimental metadata in tables ##
+## Managing life science experimental metadata in tables ##
 
 Authors: <br>
 Contributors:
@@ -34,12 +34,19 @@ To make the data understandable, re-usable and, in principle, reproducible, it i
 
 On the other hand, creating the metadata can be time-consuming. So, it is important to provide sufficient information to understand en enable re-use of the dataset, but at the same time striking a balance between the depth and breadth of the metadata provided.
 
-Several communities in the different domains have worked on developing a variety of metadata standards focusing on specifying the content to be reported, the formats to be used and common terminologies for each of domains.
+Several communities in the different domains have worked on developing a variety of metadata standards focusing on specifying the content to be reported, the formats to be used and common terminologies for each of domains. By agreeing on what to report
 
 In the next section, we will explore the different types of community-based metadata standards, providing examples for life science domains.
 
 ## Metadata Standards ##
 
+* Minimum Information Checklists: identify the same core, essential information to report about a particular type of experiment 
+* Exchange Formats: allow information to flow from one system to another (enabling syntactic interoperability)
+* Terminologies: emphasise on using the same term for referring to the same 'thing' in multiple systems (enabling semantic interoperability)
 
+Compliance with the standards is challenging. We will next present an example infrascture whose design aim was to:
+
+* achieve a common, structured representation of diverse bioscience experiments and transcending specific domains
+* facilitating compliance with the specific community guidelines and standards
 
 ### References ###
