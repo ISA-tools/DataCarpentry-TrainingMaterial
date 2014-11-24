@@ -8,5 +8,5 @@ ISAcreator is a Java-based desktop application that belongs to the ISA infrastru
 
 ## OntoMaton ##
 
-OntoMaton is an Add-on for Google Spreadsheets, which offers the functionality for terminology-based annotations. It relies on NCBO BioPortal and Linked Open Vocabularies (LOV) services.
+OntoMaton is an Add-on for Google Spreadsheets, which offers the functionality for terminology-based annotations. It relies on [NCBO BioPortal](http://bioportal.bioontology.org/) and [Linked Open Vocabularies (LOV)](http://lov.okfn.org/) services.
 
