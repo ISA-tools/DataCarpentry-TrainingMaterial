@@ -4,7 +4,13 @@
 Authors: <br>
 Contributors:
 
+Sculpting data, i.e. generating data and annotating data, involves a wide set of skills ranging from knowledge about the data in the specific domain being considered plus general expertise on data management, enabling the storage, interpretation, preservation and re-use of data.
+
+This tutorial will explore some of the concepts, skills and tools useful for managing the data and metadata --- or data about the data --- maintained in tables, or spreadsheet programs.
+
 ## Experimental Data ##
+
+
 
 ## Experimental Metadata ##
 
@@ -32,13 +38,15 @@ The table below shows an example of what the data creator could have meant:
 
 To make the data understandable, re-usable and, in principle, reproducible, it is crucial to provide metadata --- or data about the data --- including the experimental steps followed to produce the data, the characteristics of the samples, the protocols applied, the transformations applied and so on.
 
-On the other hand, creating the metadata can be time-consuming. So, it is important to provide sufficient information to understand en enable re-use of the dataset, but at the same time striking a balance between the depth and breadth of the metadata provided.
+On the other hand, creating the metadata can be time-consuming. So, it is important to provide sufficient information to understand en enable re-use of the dataset, but at the same time striking a balance between sufficiency and practicability, by exploring the depth and breadth of the metadata provided.
 
 Several communities in the different domains have worked on developing a variety of metadata standards focusing on specifying the content to be reported, the formats to be used and common terminologies for each of domains. By agreeing on what to report
 
 In the next section, we will explore the different types of community-based metadata standards, providing examples for life science domains.
 
 ## Metadata Standards ##
+
+Community-developed metadata standards can be classified into three categories:
 
 * Minimum Information Checklists: identify the same core, essential information to report about a particular type of experiment 
 * Exchange Formats: allow information to flow from one system to another (enabling syntactic interoperability)
