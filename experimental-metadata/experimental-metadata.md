@@ -38,7 +38,14 @@ The table below shows an example of what the data creator could have meant:
 
 To make the data understandable, re-usable and, in principle, reproducible, it is crucial to provide metadata --- or data about the data --- including the experimental steps followed to produce the data, the characteristics of the samples, the protocols applied, the transformations applied and so on.
 
-The experimental metadata provides background information including the expirimental context, the methods, the information about the generated data and the experimental conclusions.
+The experimental metadata provides background information including the experimental context, the methods, the information about the generated data and the experimental conclusions. Additionally, it enables data discovery through this contextual information.
+
+So, in summary, **why the experimental metadata is important**?
+
+* the data cannot be interpreted without it
+* it is fundamental for enabling data accessibility, data integration and data discovery
+* it is crucial for the experiment and data processing steps to be reproducible, in principle
+* it is a requirement for the long term data archival and preservation
 
 On the other hand, creating the metadata can be time-consuming. So, it is important to provide sufficient information to understand en enable re-use of the dataset, but at the same time striking a balance between sufficiency and practicability, by exploring the depth and breadth of the metadata provided.
 
@@ -52,7 +59,7 @@ Community-developed metadata standards can be classified into three categories:
 
 * **Minimum Information Checklists**: these are guidelines to identify the core or essential information to report about a particular type of experiment 
 * **Exchange Formats**: formats that allow information to flow from one system to another (enabling syntactic interoperability)
-* **Terminologies**: emphasise on using the same term for referring to the same 'thing' in multiple systems (enabling semantic interoperability); these terminologies could include a wide-range of vocabularies, from taxonomies to more formal ontologies.
+* **Terminologies**: emphasise on using the same term for referring to the same 'thing' in multiple systems (enabling semantic interoperability); these terminologies could include a wide-range of vocabularies, depending on how formal they are, from taxonomies to  ontologies.
 
 Let's now explore each of these categories, highlighting some examples of each.
 
@@ -64,10 +71,10 @@ The different communities using specific techniques or performing particular typ
 2. to improve data accessibility 
 3. to support effective data quality assessment
 4. to enable the unambiguous interpretation of the experimental results 
-5. to faciliate, in principle, the reproducibility of the experiment
+5. to facilitate, in principle, the reproducibility of the experiment
 6. to strengthen the value of experimental with supporting information (and thus, the competitiveness of the data generators)
 
-For example, scientistis performing microarray-based transcriptomics experiments, identified the [Minimum Information about a Microarray Experiment (MIAME)](http://biosharing.org/bsg-000177) (See *Brazma et al, 2001*). The MIAME guideline identifies [the six more crucial elements](http://www.fged.org/projects/miame/#sthash.dGA1h2Hn.dpuf) for reporting a microarray-based experiment as:
+For example, scientists performing microarray-based transcriptomics experiments, identified the [Minimum Information about a Microarray Experiment (MIAME)](http://biosharing.org/bsg-000177) (See *Brazma et al, 2001*). The MIAME guideline identifies [the six more crucial elements](http://www.fged.org/projects/miame/#sthash.dGA1h2Hn.dpuf) for reporting a microarray-based experiment as:
 
 1. the raw data files for each hybridisation
 2. the normalised data for the hybridisations
@@ -80,16 +87,33 @@ The [MIBBI Foundry](http://biosharing.org/standards/?selected_facets=isMIBBI:tru
 
 ### Exchange formats ###
 
+The definition and use of structured formats enable validating the information and exchanging it between systems.
+
+Different communities within the life sciences have defined specific structured formats for the exchange of information, whose content is often defined in minimum information guidelines (as described above), ranging from tabular structures to [eXtensive Markup Language (XML)](http://www.w3.org/XML/) documents. 
+
+Following up the examples about microarray-based experiments, two formats have been defined:
+
+1. [MicroArray Gene Expression Mark-up Language (MAGE-ML)](http://www.biosharing.org/bsg-000573)
+2. [MicroArray Gene Expression Tabular (MAGE-TAB)](http://www.biosharing.org/bsg-000080)
+
+MAGE-ML is an XML-based format, while MAGE-TAB is a simple spreadsheet-based format. Given that life scientists are familiar with tabular formats (or spreadsheets), MAGE-TAB has been more widely used than MAGE-ML.
+
+
 ### Terminologies ###
+
+Natural language, i.e. free text or plain English (or any other language, for that matter), is essentially ambiguous. We have many different ways of conveying similar information. One example is related to the use of synonyms for the same concept. Clearly, this is also true when describing experimental information. 
+
+**What are ontologies?**
+
+In life sciences, the [Gene Ontology (GO)]()
+
+[National Center for Biomedical Ontology (NCBO)](http://www.bioontology.org/) [BioPortal](http://bioportal.bioontology.org/)
+
+The [Linked Open Vocabularies (LOV)]() portal contains terminologies re
+
+
 
 #### Semantic Annotation ####
 
-
-### ISA-Tab ###
-
-Compliance with the standards is challenging. We will next present an example infrascture whose design aim was to:
-
-* achieve a common, structured representation of diverse bioscience experiments and transcending specific domains
-* facilitating compliance with the specific community guidelines and standards
 
 
