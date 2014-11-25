@@ -18,4 +18,4 @@ BioSharing is a community resource that maps the landscape of community-develope
 
 1. [Find all the standards and databases relevant for transcriptomics experiments/data](http://biosharing.org/search/?q=transcriptomics)
 2. [Find all the standards and databases relevant for microarray technology](http://biosharing.org/search/?q=microarray)
-3. 
+3. [I use high-througput sequencing technologies, which are the relavant standards and databases for my research?](http://biosharing.org/search/?q=high-throuput+sequencing)
