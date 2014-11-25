@@ -65,7 +65,7 @@ The different communities using specific techniques or performing particular typ
 3. to support effective data quality assessment
 4. to enable the unambiguous interpretation of the experimental results 
 5. to faciliate, in principle, the reproducibility of the experiment
-6. to strengthen the value of experimentl with supporting information (and thus, the competitiveness of the data generators)
+6. to strengthen the value of experimental with supporting information (and thus, the competitiveness of the data generators)
 
 For example, scientistis performing microarray-based transcriptomics experiments, identified the [Minimum Information about a Microarray Experiment (MIAME)](http://biosharing.org/bsg-000177) (See *Brazma et al, 2001*). The MIAME guideline identifies [the six more crucial elements](http://www.fged.org/projects/miame/#sthash.dGA1h2Hn.dpuf) for reporting a microarray-based experiment as:
 
