@@ -80,9 +80,9 @@ For example, scientistis performing microarray-based transcriptomics experiments
 
 ### Exchange formats ###
 
+### Terminologies ###
 
-
-## Semantic Annotation ##
+#### Semantic Annotation ####
 
 
 ### ISA-Tab ###
