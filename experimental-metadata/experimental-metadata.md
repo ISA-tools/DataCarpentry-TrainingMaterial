@@ -4,7 +4,7 @@
 Authors: <br>
 Contributors:
 
-Sculpting data, i.e. generating data and annotating data, involves a wide set of skills ranging from knowledge about the data in the specific domain being considered, plus general expertise on data management, enabling the storage, interpretation, preservation and re-use of data.
+Managing data, i.e. generating data and annotating data, involves a wide set of skills ranging from knowledge about the data in the specific domain being considered, plus general expertise on data management, enabling the storage, interpretation, preservation and re-use of data.
 
 This tutorial will explore some of the concepts, required skills and available software tools useful for managing the data and metadata --- or data about the data --- maintained in tables, i.e. in spreadsheet programs. 
 
@@ -16,7 +16,7 @@ The last decade has seen a massive increase on the biological data being generat
 
 The data on their own is not enough to understand what the data are about and how they were generated. It is important to record information about the data generation process, not only for sharing the data with other people, but also for being able to understand one's own data in the future.
 
-Let's see some examples on how NOT to report experimental information.
+Let's see some examples on **how NOT to report experimental information**.
 
 Imagine you found a folder entitled ```LS1_C2_LD_TP2_P1``` containing a file ```file1-fastq.gz```. So, what data does the file contains?
 
@@ -101,7 +101,25 @@ MAGE-ML is an XML-based format, while MAGE-TAB is a simple spreadsheet-based for
 
 ### Terminologies ###
 
-Natural language, i.e. free text or plain English (or any other language, for that matter), is essentially ambiguous. We have many different ways of conveying similar information. One example is related to the use of synonyms for the same concept. Clearly, this is also true when describing experimental information. 
+Natural language, i.e. free text or plain English (or any other language, for that matter), is essentially ambiguous. We have many different ways of conveying the same, or similar, information. One example is related to the use of synonyms for the same concept. Clearly, this is also true when describing experimental information. For example, 
+
+Let's consider the following descriptions of the experimental setup:
+
+->![natlang2concepts](./images/natlang2concepts1.png =400x)<-
+
+
+<br>
+
+The following figure shows how each of the elements' types within these phrases can be identified:
+
+->![natlang2concepts](./images/natlang2concepts2.png =400x)<-
+
+<br>
+
+And also, we can identify the different protocols applied:
+
+->![natlang2concepts](./images/natlang2concepts3.png =400x)<-
+
 
 **What are ontologies?**
 
@@ -115,5 +133,10 @@ The [Linked Open Vocabularies (LOV)]() portal contains terminologies re
 
 #### Semantic Annotation ####
 
+
+![semantic-tagging1](./images/semantic-tagging1.png =600x)
+
+
+![semantic-tagging2](./images/semantic-tagging2.png =600x)
 
 
