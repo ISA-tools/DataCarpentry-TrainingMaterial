@@ -105,20 +105,20 @@ Natural language, i.e. free text or plain English (or any other language, for th
 
 Let's consider the following descriptions of the experimental setup:
 
-->![natlang2concepts](./images/natlang2concepts1.png =400x)<-
+->![natlang2concepts](./images/natlang2concepts1.png)<-
 
 
 <br>
 
 The following figure shows how each of the elements' types within these phrases can be identified:
 
-->![natlang2concepts](./images/natlang2concepts2.png =400x)<-
+->![natlang2concepts](./images/natlang2concepts2.png)<-
 
 <br>
 
 And also, we can identify the different protocols applied:
 
-->![natlang2concepts](./images/natlang2concepts3.png =400x)<-
+->![natlang2concepts](./images/natlang2concepts3.png)<-
 
 
 **What are ontologies?**
@@ -134,9 +134,9 @@ The [Linked Open Vocabularies (LOV)]() portal contains terminologies re
 #### Semantic Annotation ####
 
 
-![semantic-tagging1](./images/semantic-tagging1.png =600x)
+![semantic-tagging1](./images/semantic-tagging1.png)
 
 
-![semantic-tagging2](./images/semantic-tagging2.png =600x)
+![semantic-tagging2](./images/semantic-tagging2.png)
 
 
