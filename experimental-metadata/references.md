@@ -21,5 +21,12 @@ Maguire, Eamonn, et al. ["OntoMaton: a Bioportal powered ontology widget for Goo
 González-Beltrán, Alejandra, et al. ["The Risa R/Bioconductor package: integrative data analysis from experimental metadata and back again."](http://www.biomedcentral.com/1471-2105/15/S1/S11) BMC bioinformatics 15.1 (2014): 1-12.
 
 
+### Spreadsheets ###
+
+Zeeberg,B.R. et al. (2004) ["Mistaken identifiers: gene name errors can be introduced inadvertently when using excel in bioinformatics."](http://www.biomedcentral.com/1471-2105/5/80) BMC Bioinformatics, 5, 80.
+
+
+
+
 
 
