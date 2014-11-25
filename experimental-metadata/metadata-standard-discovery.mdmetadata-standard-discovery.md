@@ -12,3 +12,10 @@ BioSharing is a community resource that maps the landscape of community-develope
 2. [BioSharing Data Standards Registry](http://biosharing.org/standards/)
 3. [BioSharing Databases Registry](http://biosharing.org/biodbcore/)
 
+
+
+## User stories and query cases ##
+
+1. [Find all the standards and databases relevant for transcriptomics experiments/data](http://biosharing.org/search/?q=transcriptomics)
+2. [Find all the standards and databases relevant for microarray technology](http://biosharing.org/search/?q=microarray)
+3. 
