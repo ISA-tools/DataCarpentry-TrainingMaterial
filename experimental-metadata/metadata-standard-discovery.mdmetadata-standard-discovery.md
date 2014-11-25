@@ -1,4 +1,4 @@
-# Discovery of Metadata Standards #
+# Discovery of Metadata Standards and Databases #
 
 We have explored the importance and categories of metadata standards. But, as a researcher, how do you know what metadata standards are relevant to your research? And what public databases support storing data described by the relevant metadata standards?
 
