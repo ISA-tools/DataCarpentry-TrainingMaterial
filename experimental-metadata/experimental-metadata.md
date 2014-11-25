@@ -76,7 +76,7 @@ For example, scientistis performing microarray-based transcriptomics experiments
 5. the information about the array (e.g. gene identifiers and genomic coordinates)
 6. the information about the protocols applied (e.g. about the normalisation method)
     
-[MIBBI Foundry](http://biosharing.org/standards/?selected_facets=isMIBBI:true)
+The [MIBBI Foundry](http://biosharing.org/standards/?selected_facets=isMIBBI:true) initiative was created to compile all the minimum information guidelines produced by different communities. This effort has now been embedded into the [BioSharing initiative](http://biosharing.org/), which maps the landscape of all categories of community standards in the life sciences, as well as maintaining a registry of databases and data sharing, data preservation and data management policies.
 
 ### Exchange formats ###
 
