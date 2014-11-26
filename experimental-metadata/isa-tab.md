@@ -1,4 +1,10 @@
-### ISA-Tab ###
+---
+layout: lesson
+root: ../../..
+title: "ISA-Tab"
+---
+
+
 
 Compliance with the standards is challenging. We will next present an example infrastructure whose design aim was to:
 

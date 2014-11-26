@@ -1,4 +1,9 @@
-# Experimental Data Carpentry #
+---
+layout: lesson
+root: ../../..
+title: " Experimental Data Carpentry"
+---
+
 ## Managing life science experimental metadata in tables ##
 
 Author: Alejandra Gonzalez-Beltran <br>
