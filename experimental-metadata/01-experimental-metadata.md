@@ -113,7 +113,12 @@ For example, scientists performing microarray-based transcriptomics experiments,
     
 The [MIBBI Foundry](http://biosharing.org/standards/?selected_facets=isMIBBI:true) initiative was created to compile all the minimum information guidelines produced by different communities. This effort has now been embedded into the [BioSharing initiative](http://biosharing.org/), which maps the landscape of all categories of community standards in the life sciences, as well as maintaining a registry of databases and data sharing, data preservation and data management policies.
 
-> Explore the different checklists within the [MIBBI Foundry](http://biosharing.org/standards/?selected_facets=isMIBBI:true)
+> Within the standards registry, explore the different checklists within the MIBBI Foundry (The resulting page should be this one: [MIBBI Foundry](http://biosharing.org/standards/?selected_facets=isMIBBI:true))
+
+> To see those checklists whose domain is *clinical trials*, select the *facets* **standard type = reporting guideline** and **domains = clinical trial**. The result should be what you find in [this link](http://www.biosharing.org/standards/?q=&selected_facets=type_exact:reporting%20guideline&selected_facets=domains_exact:clinical%20trial).
+
+> Select those checklists relevant to *homo sapiens* (by selecting the *facets* **standard type = reporting guideline** and **taxonomies = homo sapiens**)
+
 
 ### Exchange formats ###
 
@@ -127,6 +132,10 @@ Following up the examples about microarray-based experiments, two formats have b
 2. [MicroArray Gene Expression Tabular (MAGE-TAB)](http://www.biosharing.org/bsg-000080)
 
 MAGE-ML is an XML-based format, while MAGE-TAB is a simple spreadsheet-based format. Given that life scientists are familiar with tabular formats (or spreadsheets), MAGE-TAB has been more widely used than MAGE-ML.
+
+> Visit BioSharing record about [MIAME checklist](http://biosharing.org/bsg-000177) and explore the information providing. In particular see the box on **related standards** and those that are **exchange formats**
+
+> The Short Read Archive XML format is used in databases storing sequencing data. Visit the corresponding BioSharing record ([SRA-XML in BioSharing](http://www.biosharing.org/bsg-000084)), explore the **Implementing Databases** section and the **Schemas** section, where you can download and visualise each of the schemas.
 
 
 ### Terminologies ###
