@@ -6,8 +6,8 @@ title: " Experimental Data Carpentry"
 
 ## Managing life science experimental metadata in tables ##
 
-Authors: <br>
-Contributors:
+Author: Alejandra Gonzalez-Beltran <br>
+Contributors: Eamonn Maguire, Milo Thurston, Philippe Rocca-Serra, Susanna-Assunta Sansone
 
 Managing data, i.e. generating data and annotating data, involves a wide set of skills ranging from knowledge about the data in the specific domain being considered, plus general expertise on data management, enabling the storage, interpretation, preservation and re-use of data.
 
@@ -142,15 +142,17 @@ MAGE-ML is an XML-based format, while MAGE-TAB is a simple spreadsheet-based for
 
 > The Short Read Archive XML format is used in databases storing sequencing data. Visit the corresponding BioSharing record ([SRA-XML in BioSharing](http://www.biosharing.org/bsg-000084)), explore the **Implementing Databases** section and the **Schemas** section, where you can download and visualise each of the schemas.
 
+> ISA-Tab is a general-purpose tabular format for experimental descriptions, explore its record in BioSharing, for example, the **Implementing Databases**, **Related Standards** and **Publications** sections
+
+
 
 ### Terminologies ###
 
-Natural language, i.e. free text or plain English (or any other language, for that matter), is essentially ambiguous. We have many different ways of conveying the same, or similar, information. One example is related to the use of synonyms for the same concept. Clearly, this is also true when describing experimental information. For example, 
+Natural language, i.e. free text or plain English (or any other language, for that matter), is essentially ambiguous. We have many different ways of conveying the same, or similar, information. One example is related to the use of synonyms for the same concept. Clearly, this is also true when describing experimental information. For example, a process referring to *information acquisition* is equivalent to *data collection* (i.e. they are synonyms).
 
 Let's consider the following descriptions of the experimental setup:
 
 ->![natlang2concepts](./images/natlang2concepts1.png)<-
-
 
 <br>
 
@@ -163,6 +165,10 @@ The following figure shows how each of the elements' types within these phrases 
 And also, we can identify the different protocols applied:
 
 ->![natlang2concepts](./images/natlang2concepts3.png)<-
+
+So, how we can ensure that the same terminology is harmonised across experimental descriptions to ensure that the meaning of the description is unambiguous (so everyone is speaking the same language)?
+
+
 
 
 **What are ontologies?**
