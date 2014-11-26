@@ -18,7 +18,7 @@ Given the large amounts of data being generated, data management skills have bec
 
 Many international funding agencies and regulators have developed policies for data preservation, data management and data sharing. One of the objectives of the [BioSharing](http://www.biosharing.org) initiative, which we will explore throughout the tutorial, is to compile these policies in the [BioSharing Policy Registry](http://biosharing.org/policies)
 
-	|You can visit [BioSharing](http://www.biosharing.org) and explore [Policy Registry](http://biosharing.org/		policies) to find out about existing data sharing policies, categorised by organisation and country. 
+	>You can visit [BioSharing](http://www.biosharing.org) and explore [Policy Registry](http://biosharing.org/		policies) to find out about existing data sharing policies, categorised by organisation and country. 
 	
 	Is there any policy that is relevant to your domain of expertise?
 	 
