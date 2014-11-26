@@ -70,7 +70,11 @@ So, in summary, **why the experimental metadata is important**?
 
 On the other hand, creating the metadata can be time-consuming. So, it is important to provide sufficient information to understand en enable re-use of the dataset, but at the same time striking a balance between sufficiency and practicability, by exploring the depth and breadth of the metadata provided.
 
-Several communities in the different domains have worked on developing a variety of metadata standards focusing on specifying the content to be reported, the formats to be used and common terminologies for each of domains. By agreeing on what to report
+Several communities in the different domains have worked on developing a variety of *metadata standards* focusing on specifying the content to be reported, the formats to be used and common terminologies for each of domains. By agreeing on what to report, in which format and what terminology to use, the metadata is harmonised across experiments and repositories, facilitating data discovery.
+
+The [BioSharing](http://www.biosharing.org) initiative that we mentioned earlier, also contains registries for metadata standards and databases, as well as their relationships (e.g. what metadata standards a particular database implements?)
+
+> Visit the [BioSharing](http://www.biosharing.org) site and explore the [Standards](www.biosharing.org/standards/) Registry.
 
 In the next section, we will explore the different types of community-based metadata standards, providing examples for life science domains.
 
@@ -81,6 +85,9 @@ Community-developed metadata standards can be classified into three categories:
 * **Minimum Information Checklists**: these are guidelines to identify the core or essential information to report about a particular type of experiment 
 * **Exchange Formats**: formats that allow information to flow from one system to another (enabling syntactic interoperability)
 * **Terminologies**: emphasise on using the same term for referring to the same 'thing' in multiple systems (enabling semantic interoperability); these terminologies could include a wide-range of vocabularies, depending on how formal they are, from taxonomies to  ontologies.
+
+
+> Within the [BioSharing Standards Registry](www.biosharing.org/standards/), for example, consider filtering the information about the standards according to their *standard type* (terminology artefact, exchange format, reporting guideline) 
 
 Let's now explore each of these categories, highlighting some examples of each.
 
@@ -105,6 +112,8 @@ For example, scientists performing microarray-based transcriptomics experiments,
 6. the information about the protocols applied (e.g. about the normalisation method)
     
 The [MIBBI Foundry](http://biosharing.org/standards/?selected_facets=isMIBBI:true) initiative was created to compile all the minimum information guidelines produced by different communities. This effort has now been embedded into the [BioSharing initiative](http://biosharing.org/), which maps the landscape of all categories of community standards in the life sciences, as well as maintaining a registry of databases and data sharing, data preservation and data management policies.
+
+> Explore the different checklists within the [MIBBI Foundry](http://biosharing.org/standards/?selected_facets=isMIBBI:true)
 
 ### Exchange formats ###
 
