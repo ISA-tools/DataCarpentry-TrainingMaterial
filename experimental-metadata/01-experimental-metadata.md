@@ -1,4 +1,9 @@
-# Experimental Data Carpentry #
+---
+layout: lesson
+root: ../../..
+title: " Experimental Data Carpentry"
+---
+
 ## Managing life science experimental metadata in tables ##
 
 Author: Alejandra Gonzalez-Beltran <br>
@@ -145,6 +150,8 @@ MAGE-ML is an XML-based format, while MAGE-TAB is a simple spreadsheet-based for
 
 Natural language, i.e. free text or plain English (or any other language, for that matter), is essentially ambiguous. We have many different ways of conveying the same, or similar, information. One example is related to the use of synonyms for the same concept. Clearly, this is also true when describing experimental information. For example, a process referring to *information acquisition* is equivalent to *data collection* (i.e. they are synonyms). This is an issue when considering data interpretation and integration.
 
+So, how we can ensure that the same terminology is harmonised across experimental descriptions to ensure that the meaning of the description is unambiguous (so everyone is speaking the same language)?
+
 Let's consider the following descriptions of the experimental setup:
 
 ->![natlang2concepts](./images/natlang2concepts1.png)<-
@@ -160,6 +167,7 @@ First, let's identify each of the elements' types within these phrases:
 Additionally, we can identify the different protocols applied:
 
 ->![natlang2concepts](./images/natlang2concepts3.png)<-
+
 
 This means, that each of the elements is an instance of the type identified. If we have a structured representation of these elements, we will be able to compare experimental setups.
 

@@ -1,4 +1,9 @@
-# Tools' shed #
+---
+layout: lesson
+root: ../../..
+title: "Tools' shed"
+---
+
 
 Let's see some of the available tools to manage experimental metadata in tables.
 
