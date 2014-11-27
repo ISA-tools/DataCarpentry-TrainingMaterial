@@ -218,8 +218,10 @@ In addition, the experiment considered an organism part, the carotid artery endo
 
 ![semantic-tagging2](./images/semantic-tagging2.png)
 
-> Search for BTO in BioSharing, explore the record information, including the widget to search across the ontology.
+> Search for BTO in BioSharing, explore the record information, including the widget to search across the ontology. 
 
-> By clicking on the record title, visit the corresponding BioPortal entry. 
+> Search for *carotid artery endothelium* within BTO.
+
+> By clicking on the record title or the *View in BioPortal* link, visit the corresponding BioPortal entry. 
 
 
