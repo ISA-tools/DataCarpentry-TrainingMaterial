@@ -1,6 +1,6 @@
 ---
 layout: lesson
-root: ../../..
+root: ../..
 title: "ISA-Tab"
 ---
 
@@ -10,5 +10,11 @@ Compliance with the standards is challenging. We will next present an example in
 
 * achieve a common, structured representation of diverse bioscience experiments and transcending specific domains
 * facilitating compliance with the specific community guidelines and standards
+
+
+See these slides:
+
+http://www.slideshare.net/agbeltran/copo-kickoff-meeting
+
 
 
