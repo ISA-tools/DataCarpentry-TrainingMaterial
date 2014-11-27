@@ -143,7 +143,7 @@ MAGE-ML is an XML-based format, while MAGE-TAB is a simple spreadsheet-based for
 
 ### Terminologies ###
 
-Natural language, i.e. free text or plain English (or any other language, for that matter), is essentially ambiguous. We have many different ways of conveying the same, or similar, information. One example is related to the use of synonyms for the same concept. Clearly, this is also true when describing experimental information. For example, a process referring to *information acquisition* is equivalent to *data collection* (i.e. they are synonyms).
+Natural language, i.e. free text or plain English (or any other language, for that matter), is essentially ambiguous. We have many different ways of conveying the same, or similar, information. One example is related to the use of synonyms for the same concept. Clearly, this is also true when describing experimental information. For example, a process referring to *information acquisition* is equivalent to *data collection* (i.e. they are synonyms). This is an issue when considering data interpretation and integration.
 
 Let's consider the following descriptions of the experimental setup:
 
@@ -151,24 +151,37 @@ Let's consider the following descriptions of the experimental setup:
 
 <br>
 
-The following figure shows how each of the elements' types within these phrases can be identified:
+First, let's identify each of the elements' types within these phrases:
 
 ->![natlang2concepts](./images/natlang2concepts2.png)<-
 
 <br>
 
-And also, we can identify the different protocols applied:
+Additionally, we can identify the different protocols applied:
 
 ->![natlang2concepts](./images/natlang2concepts3.png)<-
 
-So, how we can ensure that the same terminology is harmonised across experimental descriptions to ensure that the meaning of the description is unambiguous (so everyone is speaking the same language)?
+This means, that each of the elements is an instance of the type identified. If we have a structured representation of these elements, we will be able to compare experimental setups.
 
+But, how we can ensure that the same terminology is harmonised across experimental descriptions to ensure that the meaning of the description is unambiguous (so everyone is speaking the same language)? Otherwise, comparison of experiments, discovery of data across experiments, accessibility of the data and integration will not be possible.
 
+To solve this issue, multiple communities have work on the development of terminologies or structured vocabularies. These vocabularies can range from list of keywords or tags up to ontologies, according to the level of formalism used.
 
+->![terminologies](./images/terminologies.png)<-
 
-**What are ontologies?**
+In the case of tags or keywords, the matching is purely syntactic (or textual). 
+
+Controlled vocabularies are defined by a list of terms, which should be distinct and unambiguous, having a clear definition and including synonyms (i.e. two or more words that have the same meaning) and homographs (i.e. two or more words with the same spelling, not necessarily the same pronunciation, and with different meanings). These are *controlled* vocabularies because addition/deletion and modification of terms is managed following specific rules.
+
+Taxonomies are controlled vocabularies where terms are organised in a hierarchy, by identifying *broader* or *narrower* terms. 
+
+Thesaurus are taxonomies with added associative relationships among terms (e.g. a term is identified as being *related to* other terms).
+
+Finally, ontologies represent the information in a formal way, based on formal logics, using knowledge representation languages. These languages define a grammar to express something meaningfully and unambiguously within the domain of interest.
 
 In life sciences, the [Gene Ontology (GO)]()
+
+**Ontology/Vocabulary Portals**
 
 [National Center for Biomedical Ontology (NCBO)](http://www.bioontology.org/) [BioPortal](http://bioportal.bioontology.org/)
 
