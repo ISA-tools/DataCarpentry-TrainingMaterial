@@ -1,6 +1,6 @@
 ---
 layout: lesson
-root: ../../..
+root: ../..
 title: " Experimental Data Carpentry"
 ---
 
@@ -223,5 +223,4 @@ In addition, the experiment considered an organism part, the carotid artery endo
 > Search for *carotid artery endothelium* within BTO.
 
 > By clicking on the record title or the *View in BioPortal* link, visit the corresponding BioPortal entry. 
-
 
