@@ -167,7 +167,7 @@ But, how we can ensure that the same terminology is harmonised across experiment
 
 To solve this issue, multiple communities have work on the development of terminologies or structured vocabularies. These vocabularies can range from list of keywords or tags up to ontologies, according to the level of formalism used.
 
-->![terminologies](./images/terminologies.png)<-
+->![terminologies](./images/terminologies.jpg)<-
 
 In the case of tags or keywords, the matching is purely syntactic (or textual). 
 
@@ -179,22 +179,39 @@ Thesaurus are taxonomies with added associative relationships among terms (e.g. 
 
 Finally, ontologies represent the information in a formal way, based on formal logics, using knowledge representation languages. These languages define a grammar to express something meaningfully and unambiguously within the domain of interest.
 
-In life sciences, the [Gene Ontology (GO)]()
+So, an ontology is a **computable representation of a domain**, that defines:
+* the **kinds** of things that exist in the domain (classes, terms, concepts, ...)
+* the **relationships** among the different classes (properties, roles)
+* the **instances** that are particular to the domain (individuals)
 
-**Ontology/Vocabulary Portals**
+In life sciences, the [Gene Ontology (GO)](http://geneontology.org/) is a well-known example of ontology that is used, among other things, for the annotation of gene produce and analysis of high-throughput datasets. There are many other ontologies formalising the knowledge in different topics within life sciences (and more broadly too!).
 
-[National Center for Biomedical Ontology (NCBO)](http://www.bioontology.org/) [BioPortal](http://bioportal.bioontology.org/)
+>How can you find terminologies that are relevant for your research and the annotation of the types of data you deal with?
 
-The [Linked Open Vocabularies (LOV)]() portal contains terminologies re
+>[BioSharing](http://www.biosharing.org) maintains a list of relevant ontologies within the Standards registry.
 
+> Visit the BioSharing Standards registry and explore the **terminology artifacts***
 
+BioSharing relies on the [National Center for Biomedical Ontology (NCBO)](http://www.bioontology.org/) [BioPortal](http://bioportal.bioontology.org/), which is a registry of biomedical ontologies.
+
+There are other terminology portals, such as [Linked Open Vocabularies (LOV)](http://lov.okfn.org/), which contains vocabularies not restricted to the life sciences.
 
 #### Semantic Annotation ####
 
+Semantic annotation, or semantic tagging, refers to replacing free text with terms from community-defined terminologies.
+
+Let's consider the following table, storing metadata for an experiment where at least 18 mice have been used. In this example, the organism of the mice, which is an attribute or characteristic, has been semantically tagged with a term for the NCBI Taxonomy referring to the *Mus musculus* mouse type.
+
+> Search for the NCBI Taxonomy in BioSharing. Use the ontology widget to search for *mus musculus* within the ontology terms.
 
 ![semantic-tagging1](./images/semantic-tagging1.png)
 
+In addition, the experiment considered an organism part, the carotid artery endothelium, which was semantically annotated with a term from the BRENDA Tissue Ontology (BTO). 
 
 ![semantic-tagging2](./images/semantic-tagging2.png)
+
+> Search for BTO in BioSharing, explore the record information, including the widget to search across the ontology.
+
+> By clicking on the record title, visit the corresponding BioPortal entry. 
 
 
